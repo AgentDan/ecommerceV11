@@ -63,6 +63,14 @@ export const Menu = (props) => {
                         </div>
                     }
 
+                    {isLogin &&
+                        <div className={'h-6 w-auto cursor-pointer '}>
+                            <Link to={"/renders"}>
+                                RENDERS
+                            </Link>
+                        </div>
+                    }
+
                 </div>
             </div>
 
