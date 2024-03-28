@@ -1,25 +1,16 @@
-import React from 'react';
-import {Link} from "react-router-dom";
+import photo1 from './1.jpg'
+import photo2 from './2.jpg'
+import photo3 from './3.jpg'
 
 const Renders = () => {
     return (
         <>
-            <Link to={'/'}>
-                <div
-                    className="font-bold w-44 h-12 fixed text-gray-900 backdrop-blur-sm rounded-3xl p-3 mt-1 bg-white/30 right-0.5"
-                >
-                    HOME
-                </div>
-            </Link>
+            <img src={photo1} alt="ppp"/>
+            <img src={photo2} alt="ppp"/>
+            <img src={photo3} alt="ppp"/>
 
-
-            <div className="w">
-                <img src={"./rendersimg/1.jpg"}/>
-                <img src={"./rendersimg/2.jpg"}/>
-                <img src={"./rendersimg/3.jpg"}/>
-            </div>
         </>
-    )
-}
+    );
+};
 
 export default Renders;
