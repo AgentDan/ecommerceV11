@@ -8,7 +8,7 @@ export const store = [
             {
                 id: v1(),
                 check: false,
-                nameProject: "kinkiOne",
+                nameProject: "kinkiGame",
                 def: [
                     {file: "kinkiTypeOneDefoult1"},
                     {file: "kinkiTypeOneDefoult2"},
